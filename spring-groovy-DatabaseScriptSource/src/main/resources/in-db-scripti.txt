@@ -1,0 +1,16 @@
+package groovy
+
+import com.hbsoo.db.service.HelloService
+
+/**
+ * Created by zun.wei on 2021/7/22.
+ *
+ */
+class HelloServiceImpl implements HelloService{
+
+
+    @Override
+    String sayHello(String name) {
+        "Hello $name -- ${name}. Welcome to resource in Groovy."
+    }
+}
